@@ -7,5 +7,8 @@ const buttonSend = document.getElementById("SendtoCode");
 buttonSend.addEventListener("click", function () {
     const textToCode = document.getElementById("textToCode").value;
     const positionToMove = document.getElementById("positionToMove").value;
-    console.log(textToCode, positionToMove);
+    //console.log(textToCode, positionToMove);
+    cipher.encode(positionToMove,textToCode)
+
+
 });
