@@ -4,4 +4,22 @@ background-color: beige;
 h1{ text-align: center;
 color: seagreen;
 }
-p1{font-size: 20px;}
+p1{font-size: 30px;color: seagreen;}
+
+/* Asignar estilos a un id */
+/* #root{
+    background-color: green;
+} */
+
+/* Asignar estilos por medio de una clase */
+/* .classRoot{
+    background-color: brown;
+}
+
+.classRoot2{
+    background-color: blue;
+} */
+
+/* div{
+    background-color: yellow;
+} */
