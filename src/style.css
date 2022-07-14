@@ -1,10 +1,10 @@
 body {
-background-color: beige;
+background-color: rgba(213, 235, 201, 0.856);
 }
 h1{ text-align: center;
-color: seagreen;
+color: #c2862bd2;
 }
-p1{font-size: 30px;color: seagreen;}
+p1{font-size: 30px;color: rgb(158, 121, 52);}
 
 /* Asignar estilos a un id */
 /* #root{

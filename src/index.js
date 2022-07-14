@@ -1,8 +1,15 @@
 import cipher from './cipher.js';
 
 console.log(cipher);
+const buttonSaludar = document.getElementById("saludar");
 
-const buttonSend = document.getElementById("SendtoCode");
+function saludar(valor1, valor2) {
+    return valor1 + ' ' + valor2;
+}
+
+buttonSaludar.addEventListener('click', () => {
+    console.log(saludar('Viviana', 'Ruales'));
+})
 
 buttonSend.addEventListener("click", function () {
     const textToCode = document.getElementById("textToCode").value;
