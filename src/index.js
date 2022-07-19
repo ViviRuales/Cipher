@@ -10,3 +10,8 @@ buttonSend.addEventListener("click", function () {
 
 
 });
+const botonCifrar = document.getElementById("Codificar");
+botonCifrar.addEventListener("click", function (){
+    cipher.encode()
+
+})

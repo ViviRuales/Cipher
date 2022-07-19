@@ -4,14 +4,14 @@ const cipher = {
   // objetos en js
 
  encode: function(positionToMove,textToCode) {
-
-    for (var elemento of textToCode) { 'HOLA VIVI'
-        console.log(elemento);
-    }
+console.log("Encode") 
+   /*  for (var elemento of textToCode) { 'HOLA VIVI'
+        console.log(elemento); 
+    }  */
     // recorrer una a una las letras de textToCode Ciclo o bucle
     // recorrer con un bucle/ciclo todo el positionToMove
   },
-  decode: function cifrar() {}
+  decode: function descifrar() {}
 };
 
 export default cipher;
