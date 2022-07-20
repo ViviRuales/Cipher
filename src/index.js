@@ -1,17 +1,12 @@
 import cipher from './cipher.js';
 
-const buttonSend = document.getElementById("SendtoCode");
+//console.log(textToCode, positionToMove);
+//Parametros y argumentos en una función js 
 
-buttonSend.addEventListener("click", function () {
+const botonCifrar = document.getElementById("Codificar");
+
+botonCifrar.addEventListener("click", function (){
     const textToCode = document.getElementById("textToCode").value;
     const positionToMove = document.getElementById("positionToMove").value;
-    //console.log(textToCode, positionToMove);
-    cipher.encode(positionToMove,textToCode) //Parametros y argumentos en una función js 
-
-
-});
-const botonCifrar = document.getElementById("Codificar");
-botonCifrar.addEventListener("click", function (){
-    cipher.encode()
-
+    cipher.encode(positionToMove, textToCode)  
 })
