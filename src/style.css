@@ -1,11 +1,25 @@
+
 body {
 background-color: rgba(213, 235, 201, 0.856);
 }
-h1{ text-align: center;
-color: #c2862bd2;
-}
-p1{font-size: 30px;color: rgb(158, 121, 52);}
 
+p1{font-size: 30px;color: rgb(158, 121, 52);}
+div{
+    padding:2em
+}
+.title{ margin-top: 0px;
+    background-color:salmon;
+    text-align: center;
+color: #c2862bd2;
+height: 100px;
+}
+}
+.cipherContainer{
+   padding: 0px;
+}
+body{
+    margin:0px;
+}
 /* Asignar estilos a un id */
 /* #root{
     background-color: green;
