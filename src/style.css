@@ -1,24 +1,78 @@
 
 body {
-background-color: rgba(213, 235, 201, 0.856);
+background-color: #e3f7d6;
+}
+html, body, .cipherContainer{
+    height: 100%;
+}
+.title{ margin: 0px;
+    background-color:#8FBD73;
+    text-align: center;
+color: #317009;
+height: 150px;
+opacity: 0.5;
+font-style:italic ;
+font-size:85px ;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Welcome{
+    
+    text-align: center;
+    color:#577346;
+    font-size: 45px;
 }
 
-p1{font-size: 30px;color: rgb(158, 121, 52);}
-div{
-    padding:2em
-}
-.title{ margin-top: 0px;
-    background-color:salmon;
+.Paragraph1{
+    margin-left: 20px;
+    margin-right: 20px;
+    color:#577346;
     text-align: center;
-color: #c2862bd2;
-height: 100px;
+    font-size: 25px;
 }
+
+.Start {
+  display:flex;
+  justify-content: flex-end;
+  margin-top: 200px;
+}
+.Start button{
+    height: 64px;
+    width: 132px;
+    margin-right: 50px;
+    background-color: transparent;
+    border-radius: 4px;
+    border-width:3px;
+    border-color: #577346;
+    border-style:dashed;
+    color:#317009;
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+
+div{ display: block;
+}
+
 
 .cipherContainer{
    padding: 0px;
 }
 body{
     margin:0px;
+}
+#Page2{
+    display: none;
+}
+
+.Message{
+    height: 200px;
+    width: 400px;
+    resize: none;
+    margin-left: 200px;
+    margin-top: 100px;
+    background-color:#B6F092;
 }
 /* Asignar estilos a un id */
 /* #root{
