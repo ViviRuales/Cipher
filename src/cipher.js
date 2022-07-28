@@ -1,12 +1,11 @@
 const alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-const indexToAcsii = {
-   (alphabet[index].charCodeAt()- 65+offset)%26+65;}
+const indexToAcsii = (alphabet[index].charCodeAt()- 65+offset)%26+65;
 
 const cipher = {
   // parametros y argumentos en una funcion de js
   // objetos en js
   
- encode: function(offset,string) { 
+ encode: function(offset,string) { indexToAcsii
 
     /*for (var elemento of textToCode) {
       
