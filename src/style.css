@@ -68,11 +68,69 @@ body{
 
 .Message{
     height: 200px;
-    width: 400px;
+    width: 100%;
     resize: none;
-    margin-left: 200px;
-    margin-top: 100px;
     background-color:#B6F092;
+    font-size: 25px;
+    border:5px solid #577346;
+    border-radius: 4px;
+    margin-bottom: 100px;
+    color: #577346;
+}
+
+.positions{
+  height: 40px;
+  margin-top: 105px;
+  background-color: #B6F092;
+  border:4px solid #577346;
+  border-radius: 3px;
+  color:#577346;
+  
+}
+
+.Entrada{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.Botones{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+#Codificar{
+    background-color: transparent;
+    border:4px dotted #317009;
+    border-radius: 2px;
+    color:#317009;
+    width: 100px;
+    height: 50px;
+    font-size:medium;
+}
+
+#Decode{
+    background-color: transparent;
+    border: 4px dotted #317009;
+    border-radius: 2px;
+    color: #317009;
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+}
+.ResultContainer{
+    background-color: #B6F092;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    height: 200px;
+    width: 40%;
+    border: 5px solid #577346;
+
 }
 /* Asignar estilos a un id */
 /* #root{

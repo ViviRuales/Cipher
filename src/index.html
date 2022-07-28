@@ -23,14 +23,23 @@
         </div>
       </div>
       <div id="Page2">
-        <textarea class="Message"  type="text" placeholder="Digite el texto a codificar/descifrar" id="textToCode"></textarea>
-        <input class="positions" type="number"  placeholder="Digite el numero de posiciones a trasladarse" id= "positionToMove"/>
-
-        <button id="Codificar"> Cifrar</button> 
-        <button id="Decode">Descifrar</button>
+        <div class="Entrada">
+          <textarea class="Message"  type="text"
+          placeholder="Digite el texto a codificar/descifrar" 
+          id="textToCode"></textarea>
+          <div class="Botones">
+            <button id="Codificar"> Cifrar</button> 
+            <button id="Decode">Descifrar</button>
+          </div>
+        </div>
+        <input class="positions" type="number"  
+        placeholder="Número de posiciones a cifrar" 
+        id= "positionToMove"/>
+        <div class="ResultContainer">
+          <p>Texto cifrado/descifrado ejemplo</p>
+        </div>
       </div>
     </div> 
-
     <script src="index.js" type="module"></script>
 
   </body>

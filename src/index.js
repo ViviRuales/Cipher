@@ -14,6 +14,6 @@ botonCifrar.addEventListener("click", function (){
 const botonStart = document.getElementById("start");
 botonStart.addEventListener("click", function(){
     document.getElementById("ocultar").style.display = 'none';
-    document.getElementById("Page2").style.display = 'block';
+    document.getElementById("Page2").style.display = 'flex';
 })
 
