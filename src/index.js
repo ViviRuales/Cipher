@@ -7,11 +7,18 @@ const botonCifrar = document.getElementById("Codificar");
 
 botonCifrar.addEventListener("click", function (){
     const textToCode = document.getElementById("textToCode").value;
-    const positionToMove = document.getElementById("positionToMove").value;
-    cipher.encode(positionToMove, textToCode) 
-    var resultEncode = cipher.encode(positionToMove,textToCode)
-    console.log(resultEncode)
+    const positionToMove = document.getElementById("positionToMove").value; 
+    var resultEncode = cipher.encode(positionToMove,textToCode.toUpperCase())
+    document.getElementById("showConvertedMessage").innerText = resultEncode;
 }) 
+const botonDescifrar = document.getElementById("Decode");
+
+botonDescifrar.addEventListener("click", function () {
+    const textToCode = document.getElementById("textToCode").value;
+    const positionToMove = document.getElementById("positionToMove").value; 
+    var  resultDecode = cipher.decode(positionToMove,textToCode.toUpperCase());
+    document.getElementById("showConvertedMessage").innerText = resultDecode;
+})
 
 const botonStart = document.getElementById("start");
 botonStart.addEventListener("click", function(){
