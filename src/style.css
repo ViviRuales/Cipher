@@ -64,6 +64,7 @@ body{
 }
 #Page2{
     display: none;
+    flex-wrap: wrap;
 }
 
 .Message{
@@ -124,14 +125,34 @@ body{
 }
 .ResultContainer{
     background-color: #B6F092;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 40px;
     margin-top: 100px;
     height: 200px;
-    width: 40%;
+    width: 100%;
     border: 5px solid #577346;
 
 }
+.RegresarBoton{
+    display:flex;
+    align-items:flex-end;
+      
+}
+
+.Regresar{
+    height: 50px;
+    background-color:#e3f7d6;
+    color: #317009;
+    border: 4px dashed #317009;
+   
+
+
+}
+
+.instructions{
+    width: 100%;
+    padding: 20px;
+}
+
 /* Asignar estilos a un id */
 /* #root{
     background-color: green;
