@@ -5,9 +5,11 @@ background-color: #e3f7d6;
 html, body, .cipherContainer{
     height: 100%;
 }
-.title{ margin: 0px;
-    background-color:#8FBD73;
-    text-align: center;
+
+.title{ 
+margin: 0px;
+background-color:#8FBD73;
+text-align: center;
 color: #317009;
 height: 150px;
 opacity: 0.5;
@@ -143,6 +145,7 @@ body{
     background-color:#e3f7d6;
     color: #317009;
     border: 4px dashed #317009;
+    border-radius: 2px;
    
 
 

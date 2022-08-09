@@ -17,7 +17,7 @@ const cipher = {
     const messageArray = string.split('');
     var convertedMessage="";
     for (let index = 0; index < messageArray.length; index++) {
-      var ascii = ((string.charCodeAt(index)-65 - offset +( 26*(offset %26+1)))%26)+65;
+       var ascii = ((string.charCodeAt(index)-65 - offset +( 26*(offset %26+1)))%26)+65; 
       convertedMessage += String.fromCharCode(ascii); 
       console.log( String.fromCharCode(ascii))
     }

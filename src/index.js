@@ -12,7 +12,6 @@ botonCifrar.addEventListener("click", function (){
     document.getElementById("showConvertedMessage").innerText = resultEncode;
 }) 
 const botonDescifrar = document.getElementById("Decode");
-
 botonDescifrar.addEventListener("click", function () {
     const textToCode = document.getElementById("textToCode").value;
     const positionToMove = document.getElementById("positionToMove").value; 
@@ -26,3 +25,8 @@ botonStart.addEventListener("click", function(){
     document.getElementById("Page2").style.display = 'flex';
 })
 
+const botonVolver = document.getElementById("Atrás");
+    botonVolver.addEventListener("click", function () {
+        document.getElementById("ocultar").style.display = 'block';
+        document.getElementById("Page2").style.display = 'none';
+    })
