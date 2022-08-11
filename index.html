@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="cipherContainer" id="cipherContainer">
+      <h1 class ="title">Textos de paz</h1> 
+      <section id="ocultar">
+        <h2 class = "Welcome"> ¡Bienvenidos! </h2> 
+        <br>
+        <p class="Paragraph1">
+          El príncipal objetivo de este espacio es que puedas 
+          comunicarte de manera segura y confiable con tus seres queridos. 
+          <br> Así que comencemos:
+        </p>
+        <br>
+        
+        <section class="Start">
+          <button id="start">Iniciar</button>
+        </section>
+      </section>
+      <section id="Page2">
+        <p class="instructions">Sabemos la tranquilidad que nos da comunicarnos y expresarnos libremente.
+          Es por esto que hemos diseñado este espacio para que así puedas enviar y recibir
+          tus mensajes de manera segura, rápida y sencilla. 
+          <br>
+         <br>
+       ¿Cómo puedo cifrar o descifrar un mensaje? 
+        <br>
+        1. Escribe el mensaje a cifrar o el mensaje cifrado.
+        <br>
+        2. Digita el número de posiciones al que deseas cifrar 
+        o descifrar el mensaje.
+        <br>
+        3. Oprime el botón "Cifrar" en caso de que quieras cifrar 
+        un mensaje. 
+        <br>
+        Por otro lado, oprime el botón "Descifrar en 
+        caso de que quieras revelar un mensaje." </p>
+        <div class="Entrada">
+          <textarea class="Message"  type="text"
+          placeholder="Digite el texto a codificar/descifrar" 
+          id="textToCode"></textarea>
+          <div class="Botones">
+            <button id="Codificar"> Cifrar</button> 
+            <button id="Decode">Descifrar</button>
+          </div>
+        </div>
+        <input class="positions" type="number"  
+        placeholder="Número de posiciones a cifrar" 
+        id= "positionToMove"/>
+        <div>
+          <div class="ResultContainer">
+            <p id="showConvertedMessage"></p>
+          </div>
+          <p>"La libertad no necesita alas, necesita es echar raíces." 
+           <br> - Octavio Paz
+          </p>
+        </div>
+        <div class="RegresarBoton">
+          <button class="Regresar" id="Atrás" >Regresar</button>
+       </div> 
+      </section>
+    </section> 
+    <script src="index.js" type="module"></script>
+
+  </body>
+<section>
+  
+
+</section>
+</html>
+
