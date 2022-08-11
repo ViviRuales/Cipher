@@ -16,6 +16,9 @@ Inicialmente se pensó acerca de los objetivos de la página y a quién sería d
 
 Primeros borradores de la página
 
+![alt text](https://github.com/ViviRuales/Restitucion/blob/main/Page1.png)
+
+
 
 Proceso de instalación
 
