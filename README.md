@@ -19,6 +19,7 @@ Primeros borradores de la página
 ![alt text](https://github.com/ViviRuales/Restitucion/blob/main/Page1.png)
 
 
+![alt text](https://github.com/ViviRuales/Restitucion/blob/main/Page%202.png)
 
 Proceso de instalación
 
